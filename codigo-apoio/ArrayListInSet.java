@@ -15,7 +15,7 @@ class ArrayListIntSet implements IntSet {
     private int size; // Numerodeelementosdoconjunto
     private int elem[]; // Arrayquecontemoselementosemsi
 
-    // Construtorquerecebecomoargumentoonúmeromáximodeelementos
+    // Construtor que recebe como argumento o número máximo de elementos
     ArrayListIntSet(int maxSize) {
         elem = new int[maxSize];
         size = 0;
